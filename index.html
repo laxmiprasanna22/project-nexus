@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-container">
+            <h1>Welcome to Project Nexus</h1>
+            <p>Please login or sign up to continue.</p>
+        </div>
+        <div class="form-wrapper">
+            <div class="form-container signup-container">
+                <form id="signupForm">
+                    <h1>Sign Up</h1>
+                    <input type="text" id="signupName" placeholder="Name" required />
+                    <input type="email" id="signupEmail" placeholder="Email" required />
+                    <input type="password" id="signupPassword" placeholder="Password" required />
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container login-container" id="loginContainer">
+                <form id="loginForm">
+                    <h1>Login</h1>
+                    <input type="email" id="loginEmail" placeholder="Email" required />
+                    <input type="password" id="loginPassword" placeholder="Password" required />
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <div class="thank-you-container hidden" id="thankYouContainer">
+            <h1>Thank You!</h1>
+            <p>You've successfully logged in.</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
